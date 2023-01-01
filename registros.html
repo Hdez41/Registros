@@ -149,24 +149,15 @@
             <a href="#mrphekeModal1" class="btn btn-primary" data-toggle="modal"><i class="material-icons"></i>REVISAR
               REGISTROS<img class="img2" title="lupa" src="public/assets/img/lupa.webp"><i><span
                   class="button__text"></span></i></a>
-          </div>
-
-          <div class="inputfield">
-            <button type="button" id="buscar" class="button1" onclick="read_value($('#srchID').val())">
-              <img title="lupa" class="img2" src="public/assets/img/lupa.webp">
-              <i><span class="button__text">Buscar</span></i>
-            </button>
-
-            <input type="number" name="srchID" id="srchID" placeholder="Buscar por ID">
-          </div>
-
+          </div><br>
           <div class="inputfield">
             <label>ID</label>
             <input type="number" id="id" name="id" class="input" placeholder="Número de ID" required value="">
+          </div>
+          <div class="inputfield">
             <label>Nombre</label>
             <input type="text" id="nombre" name="nombre" class="input" placeholder="Nombre y apellido" required>
           </div>
-
           <div class="inputfield">
             <label>Sexo</label>
             <select type="text" id="gender" name="gender" class="input" placeholder="Seleccione el sexo" required>
@@ -174,6 +165,8 @@
               <option>Masculino</option>
               <option>Femenino</option>
             </select>
+          </div>
+          <div class="inputfield">
             <label>Teléfono</label>
             <input type="tel" id="telefono" name="telefono" class="input" placeholder="Número de Teléfono" required
               value="">
@@ -298,23 +291,15 @@
               required></textarea>
           </div>
         </div>
-        <div id="loader"></div>
-        <p id="re"></p>
-        <div id="showData"></div>
-
-        <div class="louder-area">
-          <div></div>
-          <div id="loader"></div>
-          <p id="re"></p>
-        </div>
         <div class="buttons-area">
+          <button type="button" id="buscar" class="button1" onclick="read_value($('#srchID').val())">
+            <img title="lupa" class="img2" src="public/assets/img/lupa.webp">
+            <i><span class="button__text">Buscar</span></i>
+          </button>
+          <input type="number" name="srchID" id="srchID" placeholder="Buscar por ID">
           <button class="button1" id="g1" onClick="insert_value()" value="Registrar">
             <img class="img2" title="registros" src="public/assets/img/registros.webp"><i><span
                 class="button__text">Registrar</span></i>
-          </button>
-          <button class="button1" id="g2" onclick="read_value($('#srchID').val())">
-            <img class="img2" title="leer" src="public/assets/img/leer.webp"><i><span
-                class="button__text">Leer</span></i>
           </button>
           <button class="button1" id="g3" onclick="update_value()">
             <img class="img2" title="actualizar" src="public/assets/img/actualizar.webp"><i><span
@@ -324,7 +309,21 @@
             <img class="img2" title="borar" src="public/assets/img/borrar.webp"><i><span
                 class="button__text">Borrar</span></i>
           </button>
+          <h3>Presione buscar y seleccione los datos de la tabla que desea cambiar presionando
+            el nombre, luego revise los encasillados para editar, actualizar o borra al
+            seleccionar la opción correspondiente.
+          </h3>
         </div>
+        <div id="loader"></div>
+        <p id="re"></p>
+        <div id="showData"></div>
+
+        <div class="louder-area">
+          <div></div>
+          <div id="loader"></div>
+          <p id="re"></p>
+        </div>
+
         <div align="center">
           <!-- Memanggil loader-->
           <div id="showData"></div>
