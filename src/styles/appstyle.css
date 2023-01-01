@@ -2,7 +2,8 @@
     --container-height: 600px;
     --contaier-width: 400px;
     --header-height: 150px;
-  }
+}
+
 /*--nav var--*/
 
 * {
@@ -16,7 +17,7 @@
     font-family: 'Exo 2', sans-serif;
     background: #338ecf;
     color: rgb(0, 0, 0);
-  }
+}
 
 body {
     height: auto;
@@ -135,7 +136,7 @@ body {
 
 .content3 {
     display: flex;
-  }
+}
 
 img {
     max-width: 100%;
@@ -196,7 +197,7 @@ img {
     margin-bottom: 20px;
     border-radius: 15px;
     padding: 10px;
-  }
+}
 
 .img8 {
     width: 90%;
@@ -552,7 +553,8 @@ h4 {
     justify-content: center;
 }
 
-.container .form .inputfield .input, .container .form .inputfield .textarea {
+.container .form .inputfield .input,
+.container .form .inputfield .textarea {
     outline: 0;
     order: 3px solid #00eaf2;
     font-size: 20px;
@@ -561,7 +563,7 @@ h4 {
     transition: all .3s ease;
     width: 95%;
     background-color: #95fefe;
-  }
+}
 
 input {
     margin: 5px
@@ -595,7 +597,7 @@ input {
     justify-content: center;
     align-content: space-around;
     flex-wrap: wrap;
-  }
+}
 
 #srchID {
     padding: 3px;
@@ -743,28 +745,31 @@ td {
 }
 
 /*-- Top arow button on style --*/
-.button a{
+.button a {
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: #fff;
     background: #002851;
-    padding: 7px 12px;;
+    padding: 7px 12px;
+    ;
     font-size: 18px;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15);
-  }
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
-  .header1 {
+.header1 {
     text-align: center;
     color: white;
-    background: #03468c;;
+    background: #03468c;
+    ;
     padding-top: 20px;
     border-radius: 10px;
 }
-  .header1 {
+
+.header1 {
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -773,22 +778,25 @@ td {
     flex-direction: column;
     margin: 15px;
     line-height: 1.7;
-  }
+}
 
-  div#dateNumber {
+div#dateNumber {
     margin-left: 20px;
     margin-right: 20px;
 }
-  .new-todo {
+
+.new-todo {
     width: 100%;
     height: 50px;
     padding: 0.25rem 0;
-  }
-  .new-todo form {
+}
+
+.new-todo form {
     display: flex;
     align-items: center;
-  }
-  .new-todo form input {
+}
+
+.new-todo form input {
     flex: 1;
     height: 40px;
     background-color: transparent;
@@ -799,12 +807,14 @@ td {
     padding-left: 0.5rem;
     font-size: 1rem;
     color: #fff;
-  }
-  #newtodo:hover {
+}
+
+#newtodo:hover {
     background-color: #bfffff;
     color: #000;
-  }
-  .new-todo form button {
+}
+
+.new-todo form button {
     width: 60px;
     height: 40px;
     font-size: 1rem;
@@ -813,58 +823,68 @@ td {
     border: none;
     border-left: 0px;
     cursor: pointer;
-  }
-  .new-todo form button:hover {
+}
+
+.new-todo form button:hover {
     text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.8);
-  }
-  #todos-list .todo .bi-pencil-square {
+}
+
+#todos-list .todo .bi-pencil-square {
     color: rgb(12, 4, 255);
-  }
-  #todos-list {
+}
+
+#todos-list {
     background-color: #aeb8bf;
     padding: 0.5rem;
     border: 1px solid rgb(219, 219, 219);
     overflow: scroll;
     border-radius: 10px;
     margin-top: 50px;
-  }
+}
 
-  #todos-list .todo {
+#todos-list .todo {
     display: flex;
     align-items: center;
     padding: 0.75rem 0.5rem;
     border-radius: 5px;
-  }
-  #todos-list .todo:hover {
+}
+
+#todos-list .todo:hover {
     background-color: rgba(5, 9, 255, 0.1);
-  }
-  #todos-list .todo * {
+}
+
+#todos-list .todo * {
     cursor: pointer;
     margin-right: 0.5rem;
     border-radius: 5px;
     padding: 5px;
     background-color: #bfffff
-  }
-  #todos-list .todo i {
+}
+
+#todos-list .todo i {
     font-size: 0.9rem;
-  }
-  #todos-list .todo p4{
+}
+
+#todos-list .todo p4 {
     flex: 1;
     word-break: break-all;
-  }
-  .checked {
+}
+
+.checked {
     text-decoration: line-through;
     color: rgb(7 3 255);
-  }
-  #todos-list .todo .bi-pencil-square {
+}
+
+#todos-list .todo .bi-pencil-square {
     color: rgb(7 3 255);
-  }
-  #todos-list .todo .bi-trash {
+}
+
+#todos-list .todo .bi-trash {
     color: rgb(251 0 0);
     margin: 0;
-  }
+}
 
-  .notification {
+.notification {
     position: absolute;
 
     width: calc(3 * var(--contaier-width) / 4);
@@ -882,58 +902,58 @@ td {
     right: calc(-3 * var(--contaier-width) / 4);
 
     color: #fff;
-font-size: 20px;
+    font-size: 20px;
     transition: 300ms right ease-in-out;
-  }
+}
 
-  .notif-enter {
+.notif-enter {
     right: 10px;
-  }
+}
 
 
-    /* date */
-  .title {
+/* date */
+.title {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-  }
-  .date {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
 }
 
-div#date2 {
-    margin-top: -20px;
-}
-
-  .dateRight {
+.date {
     display: flex;
     align-items: center;
-  }
+    justify-content: space-evenly;
+}
 
-  #dateNumber {
+.dateRight {
+    display: flex;
+    align-items: center;
+}
+
+#dateNumber {
     font-size: 50px;
-  }
+}
 
-  #dateText {
+#dateText {
     letter-spacing: 3px;
     text-transform: uppercase;
-  }
+}
 
-  #dateMonth,
-  #dateNumber,
-  #dateText  {
+#dateMonth,
+#dateNumber,
+#dateText  {
     font-weight: bold;
-  }
+}
 
-  #dateMonth,
-  #dateYear {
+#dateMonth,
+#dateYear {
     margin-left: 7px;
     font-size: 20px;
-  }
+}
 
+.orderButton {
+    background-color: var(--secondary);
+    color: var(--light);
+}
 
 /*--interes--*/
 #Direccion {
@@ -957,6 +977,7 @@ div#date2 {
     width: -moz-available;
     width: -webkit-fill-available;
 }
+
 /*--popup--*/
 .button {
     font-size: 1em;
