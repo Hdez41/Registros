@@ -876,13 +876,13 @@ td {
 
     opacity: 0.9;
 
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: rgb(175, 81, 233);
-    top: 10px;
+    top: 130px;
     right: calc(-3 * var(--contaier-width) / 4);
 
     color: #fff;
-
+font-size: 20px;
     transition: 300ms right ease-in-out;
   }
 
